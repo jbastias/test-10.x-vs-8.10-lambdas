@@ -1,0 +1,11 @@
+
+service: aws-nodejs-8-10 # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  test-lambda-node-8-10:
+    handler: handler.testLambdaNode
+
